@@ -1,0 +1,10 @@
+name: StaffRanks
+version: ${project.version}
+main: com.rewind.dev.staffranks.StaffRanks
+api-version: 1.13
+authors: [Rewind]
+description: Staff ranks
+commands:
+  setRank:
+    usage: </setrank [playerName]...>
+    description: Sets a given rank to the specified player.
